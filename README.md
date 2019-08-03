@@ -25,7 +25,7 @@ Les strats seront expliquées si nécessaire lors des premières rencontre avec 
 Au cas où nous ne serions pas assez nombreux, nous lancerons une recherche pour atteindre la composition minimum nécesssaire.
 
 ## Ce que nous demandons
-* Ilvl : 415
+* Ilvl minimum 415
 * Full enchant
 * Flask
 
