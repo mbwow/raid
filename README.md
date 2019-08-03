@@ -11,9 +11,11 @@ Si vous êtes intéressé contactez nous :
 * Balist
 
 ## Organisation
-* Les invitations se font via le calendrier IG.
-* Connexion à Discord obligatoire.
-* Les strats seront expliquées si nécessaire lors des premières rencontre avec un boss.
+Les invitations se font via le calendrier IG.
+
+Connexion à Discord obligatoire.
+
+Les strats seront expliquées si nécessaire lors des premières rencontre avec un boss.
 
 * Soir de raid : {à défnir}
 * Connecté : 21h15
@@ -26,4 +28,4 @@ Si vous êtes intéressé contactez nous :
 * Flask
 
 ## Addons obligatoires
-* DBM, ...
+DBM, ...
