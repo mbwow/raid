@@ -1,9 +1,23 @@
 # Raid [MétroBoulotWoW](https://worldofwarcraft.com/fr-fr/guild/eu/dalaran/m%C3%A9troboulotwow/) - Dalaran
 
+Palier actuel : Palais Eternel.
+
+## Présentation
+
+Bonjour à toutes et à tous,
+
+nous sommes des joueurs ayant une expérience Raid et Mythic Plus et connaissons bien les mécanqiues du jeu.
+
+Etant peu nombreux, nous souhaitons étendre notre terrain de jeu au Raid avec d'autres joueurs sérieux et éventuellement faire connaissances pour d'autres activités IG.
+
 ## Objectifs
 Constituer une team efficace pour avancer dans le contenu raid PVE, sur un soirée.
 
 Nous ne cherchons pas à guilder les personnes, juste à constituer une team fixe.
+
+Dans un premier clean le Normal pour poser les bases puis rapidement le HM.
+
+On ne s'interdit pas d'aller en Mythic.
 
 Si vous êtes intéressé contactez nous sur Dalaran : 
 * Ob
