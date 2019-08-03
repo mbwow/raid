@@ -22,7 +22,7 @@ Les strats seront expliquées si nécessaire lors des premières rencontre avec 
 * Départ : 21h30
 * Fin : 00h
 
-Au cas ou nous ne serions pas assez nombreux nous lancerons une recherche pour atteindre la composition minimum nécesssaire.
+Au cas où nous ne serions pas assez nombreux, nous lancerons une recherche pour atteindre la composition minimum nécesssaire.
 
 ## Ce que nous demandons
 * Ilvl : 415
