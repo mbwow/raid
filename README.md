@@ -30,4 +30,4 @@ Au cas où nous ne serions pas assez nombreux, nous lancerons une recherche pour
 * Flask
 
 ## Addons obligatoires
-DBM, ...
+DBM, Weakaura2
