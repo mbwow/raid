@@ -2,7 +2,13 @@
 
 ## Objectifs
 Constituer une team efficace pour avancer dans le contenu raid PVE sur un soirée.
+
 Nous ne cherchons pas à guilder les personnes, juste à constituer une team efficace.
+
+Si vous êtes intéressé contactez nous : 
+* Ob
+* Zeblob
+* Balist
 
 ## Organisation
 * Les invitations se font via le calendrier IG.
@@ -19,5 +25,5 @@ Nous ne cherchons pas à guilder les personnes, juste à constituer une team eff
 * Full enchant
 * Flask
 
-## Addons obligatoires :
+## Addons obligatoires
 * DBM, ...
