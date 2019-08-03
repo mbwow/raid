@@ -1,7 +1,5 @@
 # Raid [MétroBoulotWoW](https://worldofwarcraft.com/fr-fr/guild/eu/dalaran/m%C3%A9troboulotwow/) - Dalaran 
 
-![Horde](http://www.veryicon.com/icon/png/Game/Warcraft%20-%20Volume%201/Horde%20Banner.png)
-
 Palier actuel : Palais Eternel.
 
 ## Présentation
@@ -17,7 +15,7 @@ Constituer une team efficace pour avancer dans le contenu raid PVE, sur un soir�
 
 Nous ne cherchons pas à guilder les personnes, juste à constituer une team fixe.
 
-Dans un premier clean le Normal pour poser les bases puis rapidement le HM.
+Dans un premier temps, clean le Normal pour poser les bases puis rapidement entamer le mode HM.
 
 On ne s'interdit pas d'aller en Mythic.
 
