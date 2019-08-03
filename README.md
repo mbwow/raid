@@ -1,4 +1,4 @@
-# Raid MétroBoulotWoW - Dalaran
+# Raid [MétroBoulotWoW](https://worldofwarcraft.com/fr-fr/guild/eu/dalaran/m%C3%A9troboulotwow/) - Dalaran
 
 ## Objectifs
 Constituer une team efficace pour avancer dans le contenu raid PVE, sur un soirée.
