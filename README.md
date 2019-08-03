@@ -1,11 +1,11 @@
-# Raid MétroBoulotWoW
+# Raid MétroBoulotWoW - Dalaran
 
 ## Objectifs
 Constituer une team efficace pour avancer dans le contenu raid PVE sur un soirée.
 
 Nous ne cherchons pas à guilder les personnes, juste à constituer une team efficace.
 
-Si vous êtes intéressé contactez nous : 
+Si vous êtes intéressé contactez nous sur Dalaran : 
 * Ob
 * Zeblob
 * Balist
