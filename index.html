@@ -4,14 +4,142 @@
 <title>Dalaran - Horde - FR - MétroBoulotWoW</title>
 <meta charset="UTF-8">
 <link rel="icon" href="ico.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
 a:link {color: #D8C9C6;text-decoration:none;}
 a:visited {color: #D8C9C6;}
 a:hover {color: #D8C9C6;}
 a:active {color: #D8C9C6;} 
 </style>
+<script>
+	function requestToDiscord(){
+		requestHide();
+		var realm = $('#realm').val();
+		var pseudo = $('#pseudo').val();
+		var description = $('#description').val();
+		$.ajax({
+		  type: 'POST',
+		  // The webhook URL.
+		  url: 'https://discordapp.com/api/webhooks/607285921565638656/J4kU4GfNhL3ECFxPVi2nu9vkp6srQWqG7Z063wdUfIJOcdLqdNUGaQA4yyyBv8R308d6',
+		  // Message data.
+		  data: JSON.stringify({
+			// The username to be displayed.
+			username: pseudo,
+			// The avatar to be displayed.
+			avatar_url: '',
+			// Contents of the message to be sent.
+			content: 'https://worldofwarcraft.com/fr-fr/character/eu/'+realm+"/"+pseudo,
+			// Embeds to be sent.
+			embeds: [{
+			  // Embed title - link on 2nd row.
+			  title: '',
+			  // Embed description - text on 3rd row.
+			  description: '',
+			  // Link for title and thumbnail.
+			  url: '',
+			  // Decimal number colour of the side of the embed.
+			  color: 11730954,
+			  // Embed image - picture below description (and fields).
+			  image: {
+				url: ''
+			  },
+			  // Embed author - icon next to text at top (text is a link).
+			  author: {
+				name: '',
+				url: '',
+				icon_url: ''
+			  },
+			  // Embed thumbnail - small image in top right corner.
+			  thumbnail: {
+				url: ''
+			  },
+			  // Custom embed fields with a bold title/name, and normal content/value below title - located below description, above image.
+			  fields: [{
+				name: 'Message',
+				value: description
+			  }],
+			  // Embed footer - icon next to text at bottom.
+			  footer: {
+				text: '',
+				icon_url: ''
+			  }
+			}]
+		  }),
+		  // Content type.
+		  contentType: 'application/json',
+		  // Success callback.
+		  success: function (data) { },
+		  // Error callback.
+		  error: function (data) {
+			alert(data.responseText);
+		  }
+		});
+		alert("Message envoyé !");
+	}
+
+	function requestDisplay(){
+		document.getElementById("request").style.display = "block";
+	}
+	
+	function requestHide(){
+		document.getElementById("request").style.display = "none";
+	}
+</script>
 </head>
 <body style="margin:0px;background-color:#000;color:#D8C9C6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol">
+<div id="request" style="position:absolute;top:0px;left:0px;width:100%;height:100%;display:none;background-color:#000;opacity:1">
+	<div style="position:relative;top:300px;left:530px;border:1px solid #D8C9C6;border-radius:5px;width:500px;padding:10px;background-color:#000;opacity:1">
+		<table>
+			<tr><td>Royaume</td><td>
+				<select id="realm">
+					<option value="arathi">Arathi</option>
+					<option value="archimonde">Archimonde</option>
+					<option value="arakarahm">Arak-arahm</option>
+					<option value="chants-eternels">Chants éternels</option>
+					<option value="chogall">Cho'gall</option>
+					<option value="confrerie-du-thorium">Conseil des Ombres</option>
+					<option value="culte-de-la-rive-noire">Culte de la Rive noire</option> 
+					<option value="dalaran">Dalaran</option>
+					<option value="drekthar">Drek'Thar</option>
+					<option value="eitrigg">Eldre'Thalas</option>
+					<option value="elune">Elune</option>
+					<option value="garona">Garona</option>
+					<option value="hyjal">Hyjal</option>
+					<option value="illidan">Illidan</option>
+					<option value="kaelthas">Kael'thas</option>
+					<option value="khaz-modan">Khaz Modan</option>
+					<option value="kirin-tor">Kirin Tor</option>
+					<option value="krasus">Krasus</option>
+					<option value="la-croisade-ecarlate">La Croisade écarlate</option>
+					<option value="les-clairvoyants">Les Clairvoyants</option>
+					<option value="les-sentinelles">Les Sentinelles</option>
+					<option value="marecage-de-zangar">Marécage de Zangar</option>
+					<option value="medivh">Medivh</option>
+					<option value="naxxramas">Naxxramas</option>
+					<option value="nerzhul">Ner'zhul</option>
+					<option value="rashgarroth">Rashgarroth</option>
+					<option value="sargeras">Sargeras</option>
+					<option value="sinstralis">Sinstralis</option>
+					<option value="suramar">Suramar</option>
+					<option value="temple-noir">Temple noir</option>
+					<option value="throkferoth">Throk'Feroth</option>
+					<option value="uldaman">Uldaman</option>
+					<option value="varimathras">Varimathras</option>
+					<option value="voljin">Vol'jin</option>
+					<option value="ysondre">Ysondre</option>
+				</select>
+			</td></tr>
+			<tr><td>Pseudo</td><td><input type="TEXT" id="pseudo" placeholder="Nom du personnage"/></td></tr>
+			<tr><td>Message</td><td></td></tr>
+			<tr><td colspan="2"><textarea style="width:485px;height:300px" id="description"></textarea></td></tr>
+			<tr><td></td><td style="text-align:right">
+				<input type="button" value="Annuler" onclick="requestHide()"/>
+				<input type="button" value="Envoyer" onclick="requestToDiscord()"/>
+			</td></tr>
+		</table>
+	</div>
+</div>
+
 <div style="position:fixed;top:5px;width:100%">
 	<div style="position:absolute;top:-5px;width:100%;height:160px;background-color:#000">
 		<img style="position:relative;top:0px;left:620px;" src="bg.png" height="256px"/>
@@ -64,6 +192,7 @@ Si ces objectifs vous correspondent et que vous êtes intéressé contactez nous
 <li>Zeblob</li>
 <li>Balist</li>
 </ul>
+Ou <a href="javascript:requestDisplay()" style="cursor:pointer;text-decoration:underline">envoyez nous un message</a> avec vos questions, on vous re-contactera IG.
 <h2>Organisation</h2>
 Les invitations se font via le calendrier IG.<br/>
 Connexion à Discord obligatoire.<br/>
