@@ -76,6 +76,14 @@ a:active {color: #D8C9C6;}
 		});
 		alert("Message envoyé !");
 	}
+	
+	function setIco(){
+		var link = parent.document.querySelector("link[rel*='icon']") || parent.document.createElement('link');
+		link.type = 'image/x-icon';
+		link.rel = 'shortcut icon';
+		link.href = 'icon.png';
+		parent.document.getElementsByTagName('head')[0].appendChild(link);
+	}
 
 	function requestDisplay(){
 		document.getElementById("request").style.display = "block";
@@ -227,5 +235,6 @@ Respect du Discord (éviter la cacophonie).<br/>
 <hr style="color:#D8C9C6"/>
 <center>&#9400; 2019 - MétroBoulotWoW</center><br/>
 </div>
+<script>setIco()</script>
 </body>
 </html>
