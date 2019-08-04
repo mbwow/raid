@@ -78,11 +78,11 @@ a:active {color: #D8C9C6;}
 	}
 	
 	function setIco(){
-		var link = parent.document.querySelector("link[rel*='icon']") || parent.document.createElement('link');
+		var link = window.parent.document.querySelector("link[rel*='icon']") || window.parent.document.createElement('link');
 		link.type = 'image/x-icon';
 		link.rel = 'shortcut icon';
 		link.href = 'icon.png';
-		parent.document.getElementsByTagName('head')[0].appendChild(link);
+		window.parent.document.getElementsByTagName('head')[0].appendChild(link);
 	}
 
 	function requestDisplay(){
